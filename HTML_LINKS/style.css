@@ -27,6 +27,21 @@ html {
     transition: all 0.2s ease-in;
 }
 
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .container .logo {
+    color: #000000;
+    
+}
+
+.header .container a {
+    text-decoration: none;
+}
+
 .header ul li:hover {
     background-color: #000000;
     border-radius: 8px;

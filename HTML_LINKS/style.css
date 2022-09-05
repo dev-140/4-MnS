@@ -24,12 +24,17 @@ html {
 .header ul li {
     list-style-type: none;
     padding: 10px;
+    transition: all 0.2s ease-in;
 }
 
 .header ul li:hover {
     background-color: #000000;
     border-radius: 8px;
     color: #FFFFFF !important; 
+}
+
+.header ul li:active {
+    opacity: 0.5;
 }
 
 .header ul li:hover  a {

@@ -9,6 +9,10 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+.wrapper {
+    padding: 20px;
+}
+
 .header  {
     padding: 20px;
     background-color: #ffd152;
